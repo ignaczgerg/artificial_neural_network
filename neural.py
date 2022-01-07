@@ -5,7 +5,7 @@ from datetime import timedelta, datetime
 import pickle
 import gzip
 
-from layers import *
+from layers import AbstractLayer, InputLayer, ActivationLayer, DenseLayer
 from optimizers import AbstractOptimizer
 from costs import AbstractCost
 from metrics import AbstractMetric
